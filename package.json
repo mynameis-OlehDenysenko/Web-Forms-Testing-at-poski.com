@@ -1,0 +1,27 @@
+{
+  "name": "testing-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^5.2.0"
+  },
+  "dependencies": {
+    "faker": "^5.1.0"
+  },
+  "standard": {
+    "env": {   
+      "commonjs": true,
+      "node": true,
+      "mocha": true,
+      "cypress":true
+    },
+    "globals": ["cy", "Cypress", "expect", "assert"]
+  }
+}
